@@ -1,0 +1,41 @@
+Marlus 
+	Movimento da seta
+		- Mover a nave linearmente (eixo Z)
+		OU - Mover a nave pra frente, usando Rigidbody e addforce();
+		- Mover a nave angularmente (eixo X/rotação)
+	Instanciação
+		- Criar a "munição"
+		- Fazer um gerador de tiror a partir da nave
+		- dESTRUIr as balas 
+			- Ao colidir com algo
+			- Ao passar muito tempo sem colisão, ou após um tempo limite.
+
+Chico
+	Feedback sonoros E OU visuais
+		- Efeito nas colisões
+		- Efeito do movimento da nave
+		- Efeito do tiro
+	U.I.
+		- Tela inicial.
+		- Tela de Game Over
+		 - Contagem de pontos e vidas.
+		 - Pontuação final = Pontos*vidas(?)
+		- HUD
+			- Quantidade de vidas
+			- Pontuação
+
+Nathan 
+	Cenário
+		- Arquitetura do level
+		- Colisão 
+			- Contagem de vida
+			- Contagem de pontos
+	Desafios
+		- Inimigos ou obstáculos
+			- Comportamento
+				-Movimento deles
+			- Parâmetros
+				- Vida
+				- Dano causado
+			- Cadência de geração ou posição
+	
